@@ -1,0 +1,13 @@
+.photo-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-item {
+  width: 250px;
+  height: auto;
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 10px 10px 10px #004dff21;
+}
