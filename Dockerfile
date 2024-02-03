@@ -1,9 +1,9 @@
 # Stage 1: Build the app
 FROM node:20 as build
 WORKDIR /app
-COPY code/package*.json ./
+COPY . .
 RUN npm update
-COPY code/ .
+#COPY code/ .
 RUN npm run build
 
 # Stage 2: Production image
